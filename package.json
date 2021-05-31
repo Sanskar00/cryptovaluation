@@ -2,7 +2,7 @@
   "name": "crypto-evalution",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Sanskar00.github.io/crypto-evaluation",
+  "homepage": "https://Sanskar00.github.io/cryptovaluation",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.12.0",
