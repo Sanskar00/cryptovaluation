@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/crypto-evaluation/static/css/main.8efd268a.chunk.css",
+    "main.js": "/crypto-evaluation/static/js/main.d3cc7ab7.chunk.js",
+    "main.js.map": "/crypto-evaluation/static/js/main.d3cc7ab7.chunk.js.map",
+    "runtime-main.js": "/crypto-evaluation/static/js/runtime-main.2cfcca11.js",
+    "runtime-main.js.map": "/crypto-evaluation/static/js/runtime-main.2cfcca11.js.map",
+    "static/css/2.ac82d1d8.chunk.css": "/crypto-evaluation/static/css/2.ac82d1d8.chunk.css",
+    "static/js/2.41ca8d5e.chunk.js": "/crypto-evaluation/static/js/2.41ca8d5e.chunk.js",
+    "static/js/2.41ca8d5e.chunk.js.map": "/crypto-evaluation/static/js/2.41ca8d5e.chunk.js.map",
+    "static/js/3.ddfc0130.chunk.js": "/crypto-evaluation/static/js/3.ddfc0130.chunk.js",
+    "static/js/3.ddfc0130.chunk.js.map": "/crypto-evaluation/static/js/3.ddfc0130.chunk.js.map",
+    "index.html": "/crypto-evaluation/index.html",
+    "static/css/2.ac82d1d8.chunk.css.map": "/crypto-evaluation/static/css/2.ac82d1d8.chunk.css.map",
+    "static/css/main.8efd268a.chunk.css.map": "/crypto-evaluation/static/css/main.8efd268a.chunk.css.map",
+    "static/js/2.41ca8d5e.chunk.js.LICENSE.txt": "/crypto-evaluation/static/js/2.41ca8d5e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2cfcca11.js",
+    "static/css/2.ac82d1d8.chunk.css",
+    "static/js/2.41ca8d5e.chunk.js",
+    "static/css/main.8efd268a.chunk.css",
+    "static/js/main.d3cc7ab7.chunk.js"
+  ]
+}
