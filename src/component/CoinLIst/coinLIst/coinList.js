@@ -72,6 +72,7 @@ export function CoinsList(){
                   <tr>
                     <td><img alt='coins' src={coin.image} style={{width:"50px",height:"50px"}}></img></td>
                     <td>
+
                     <Link to={`/${coin.id}`}>{coin.name}</Link>
                     </td>
                     <td>{coin.symbol}</td>

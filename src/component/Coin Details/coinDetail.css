@@ -1,11 +1,11 @@
 .box {
     display: flex;
 }
-.container{
+/* .container{
     border-radius: 2px;
     margin-top: 1em;
     color: #989898;
-}
+} */
 .column-left {
     display: grid;
     justify-content: left;

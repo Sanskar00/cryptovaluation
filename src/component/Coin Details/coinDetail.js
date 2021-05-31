@@ -12,11 +12,10 @@ export function Coin({match,props}){
         const fetchCoin=await fetch(`https://api.coingecko.com/api/v3/coins/${match.params.id}?sparkline=true`)
         const coin=await fetchCoin.json();
         setcoin(coin);
-        console.log(coin);
     }
     const price_percentage=(coin.market_data)?coin.market_data.price_change_percentage_1h_in_currency.usd:''
     return(
-        <div className='container' >
+        <div className='container-fluid' style={{color:'whitesmoke'}} >
             <div className='row' style={{padding:'2rem'}}>
                 
                 <div className='col-sm'>
