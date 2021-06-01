@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './searchField.css'
 import {Link} from 'react-router-dom';
 
@@ -35,11 +34,5 @@ export function Navbar (){
     </ul>
   
   </div>
-  {/* <input
-     className="search "
-     type='searchField'
-     placeholder={placeholder} 
-     onChange={handleChange}
-    /> */}
 </nav>)
 }
