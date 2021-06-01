@@ -42,6 +42,7 @@
   }
 .about{
     margin: 2em;
+    float: left;
 }
 #heading{
     text-align: left;
