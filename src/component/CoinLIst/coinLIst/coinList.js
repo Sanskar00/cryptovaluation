@@ -53,8 +53,8 @@ export function CoinsList(){
         
     }
     return(
-       
-        <Table striped  hover variant  ="dark" className="container">
+       <div style={{overflowX:'auto'}}>
+            <Table striped  hover variant  ="dark" className="container">
                 <thead>
                 <tr>
                     <th>Logo</th>
@@ -86,6 +86,8 @@ export function CoinsList(){
          ))} 
                 </tbody>
             </Table>
+       </div>
+       
 
     )
 }
