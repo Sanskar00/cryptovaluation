@@ -1,5 +1,6 @@
 import React ,{useState,useEffect} from 'react';
 import './coinDetail.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 export function Coin({match,props}){
     useEffect(()=>{
