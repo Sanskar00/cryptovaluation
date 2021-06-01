@@ -112,9 +112,9 @@ export function Coin({match,props}){
                    
                 </div>
             </div>
-            <div className='about'>
+            <div className='about' >
                 <h3 id='heading'>About {coin.name}</h3>
-                <p style={{textAlign:'left'}}>{(coin.description)?coin.description.en:''}</p>
+                <p style={{float:'left'}}>{(coin.description)?coin.description.en:''}</p>
             </div>
 
             
