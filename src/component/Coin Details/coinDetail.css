@@ -42,7 +42,7 @@
   }
 .about{
     margin: 2em;
-    float: left;
+    display: inline-block; 
 }
 #heading{
     text-align: left;
