@@ -2,6 +2,7 @@ import React ,{useState,useEffect} from 'react';
 import './coinDetail.css'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import ReactLinkify from 'react-linkify';
 export function Coin({match,props}){
     useEffect(()=>{
         fetchCoin();
@@ -115,7 +116,7 @@ export function Coin({match,props}){
         </div>
         <div className='about'style={{wordWrap:'break-word'}} >
             <h3 id='heading'>About {coin.name}</h3>
-            <p style={{float:'left'}}>{(coin.description)?coin.description.en:''}</p>
+            <ReactLinkify><p style={{float:'left'}}>{(coin.description)?coin.description.en:''}</p></ReactLinkify>
         </div>
 
             
