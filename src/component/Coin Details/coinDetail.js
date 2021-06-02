@@ -15,7 +15,7 @@ export function Coin({match,props}){
     }
     const price_percentage=(coin.market_data)?coin.market_data.price_change_percentage_1h_in_currency.usd:''
     return(
-        <div className='container-fluid container'  style={{color:'whitesmoke', width:'100%'}} >
+        <div className='container-sm'  style={{color:'whitesmoke', width:'100%'}} >
             <div className='row' style={{padding:'2rem'}}>
                 
                 <div className='col-sm'>
