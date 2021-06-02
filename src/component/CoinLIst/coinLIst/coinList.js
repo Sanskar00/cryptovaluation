@@ -22,7 +22,7 @@ export function CoinsList(){
 
         
     }
-    export function handleChange(e){
+    function handleChange(e){
         setSearch(e.target.value);
     }
     const filteredCoin=coins.filter(coin=>(
