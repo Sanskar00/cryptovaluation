@@ -116,7 +116,7 @@ export function Coin({match,props}){
         </div>
         <div className='about'style={{wordWrap:'break-word'}} >
             <h3 id='heading'>About {coin.name}</h3>
-            <ReactLinkify><p style={{float:'left'}}>{(coin.description)?coin.description.en:''}</p></ReactLinkify>
+            <ReactLinkify><p style={{textAlign:'left'}}>{(coin.description)?coin.description.en:''}</p></ReactLinkify>
         </div>
 
             
