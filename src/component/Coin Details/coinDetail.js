@@ -16,7 +16,7 @@ export function Coin({match,props}){
     }
     const price_percentage=(coin.market_data)?coin.market_data.price_change_percentage_1h_in_currency.usd:''
     return(
-        <div style={{overflowX:'auto'}}>
+        <div>
              <div className='container-sm'  style={{color:'whitesmoke', width:'100%'}} >
         <div className='row' style={{padding:'2rem'}}>
             
@@ -114,7 +114,7 @@ export function Coin({match,props}){
                
             </div>
         </div>
-        <div className='about'style={{wordWrap:'break-word'}} >
+        <div className='about' style={{overflowX:'auto'}} >
             <h3 id='heading'>About {coin.name}</h3>
             <ReactLinkify><p style={{textAlign:'left'}}>{(coin.description)?coin.description.en:''}</p></ReactLinkify>
         </div>
