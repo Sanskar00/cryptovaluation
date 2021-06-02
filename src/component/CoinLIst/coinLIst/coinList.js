@@ -22,7 +22,7 @@ export function CoinsList(){
 
         
     }
-    function handleChange(e){
+    export function handleChange(e){
         setSearch(e.target.value);
     }
     const filteredCoin=coins.filter(coin=>(
@@ -32,7 +32,7 @@ export function CoinsList(){
     return(
        <div style={{overflowX:'auto'}}>
            <input  className='search'
-                type='searchField'
+              type='searchField'
                 placeholder= 'Search Coin'
                 onChange={handleChange}></input>
             <Table striped  hover variant  ="dark" className="container">
