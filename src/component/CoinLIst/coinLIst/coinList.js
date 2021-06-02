@@ -30,12 +30,12 @@ export function CoinsList(){
     ))
 
     return(
-       <div >
+       <div  style={{overflowX:'auto'}}>
            <input  className='search'
               type='searchField'
                 placeholder= 'Search Coin'
                 onChange={handleChange}></input>
-            <Table striped  hover variant  ="dark" className="container" style={{overflowX:'auto'}}>
+            <Table striped  hover variant  ="dark" className="container">
                 <thead>
                 <tr>
                     <th>Logo</th>
