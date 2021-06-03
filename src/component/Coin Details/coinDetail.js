@@ -56,7 +56,7 @@ export function Coin({match,props}){
             
             </div>
         </div>
-        <div className='row' style={{padding:'5px'}}>
+        <div className='row' style={{padding:'5px',position:'fixed'}}>
             <div className='col-sm'>
                 <div className='row'>
                     <div className='col-sm '>
