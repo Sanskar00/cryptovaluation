@@ -12,7 +12,7 @@ class App extends Component
     return (
       <Router>      
         <div className="App">
-          <Navbar placeholder='Search Currency' handleChange ={this.handleChange}/>
+          <Navbar />
           <Switch>
           <Route path='/' exact component={CoinsList} />
           <Route path="/about" component={About}/>

@@ -1,6 +1,3 @@
-  .container {
-    background-color: rgba(255, 255, 255, .15);   
-   }
    .search {
     -webkit-appearance: none;
     border: none;
@@ -9,8 +6,5 @@
     width: 150px;
     line-height: 30px;
     margin-bottom: 30px;
-    background-color: rgba(255, 255, 255, .15); 
-    color: whitesmoke;
-    position: fixed;
   }
   

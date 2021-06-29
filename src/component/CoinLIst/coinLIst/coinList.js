@@ -7,6 +7,7 @@ import {Link} from 'react-router-dom';
 import { Navbar } from '../../navbar/navbar';
 
 
+
 export function CoinsList(){
     useEffect(()=>{
         fetchCoins();
@@ -22,20 +23,19 @@ export function CoinsList(){
 
         
     }
-    function handleChange(e){
-        setSearch(e.target.value);
-    }
+  
     const filteredCoin=coins.filter(coin=>(
         coin.name.toLowerCase().includes(search.toLowerCase())
     ))
+    const handleChange= (e)=>{
+        setSearch(e.target.value);
+    }
+   
 
     return(
        <div  style={{overflowX:'auto'}}>
-           <input  className='search'
-              type='searchField'
-                placeholder= 'Search Coin'
-                onChange={handleChange}></input>
-            <Table striped  hover variant  ="dark" className="container">
+          
+                <Table hover ="dark" className="container">
                 <thead>
                 <tr>
                     <th>Logo</th>
